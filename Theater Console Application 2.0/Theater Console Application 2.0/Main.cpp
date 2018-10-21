@@ -96,8 +96,8 @@ void displayTheater(Theater theater) {
             }
             cout << status;
         }
-        cout << NEUTRAL;
-        cout << "-$" << theater.getPrice(i) << endl;
+        cout << NEUTRAL << "-";
+        cout << ((theater.getRow(i).isSpecial())? SPECIAL:NEUTRAL) << "$" << theater.getPrice(i) << NEUTRAL << endl;
     }
     cout << NEUTRAL;
 }
