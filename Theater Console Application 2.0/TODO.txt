@@ -1,0 +1,9 @@
+1. UI: mouse click info
+    a. check if you can get a value at clicked point
+    b. check if you can move console cursor position
+        i. display theater with offset
+    c. check if you can get mouse click action
+
+3. make Theater class
+    f. get Theater's available seats
+    g. display seat address on right of menu
